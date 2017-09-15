@@ -1,0 +1,77 @@
+body{
+    font-family: 'Muli', sans-serif;
+}
+
+.bold{
+    font-size:50px;
+}
+
+.container-column1 {
+  width: 30%;
+  height: auto;
+  float: left;
+  color:white;
+  background-color:#C84921;
+}  
+
+.column-1-headline{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size:50px;
+}
+
+.column-1-subheadline{
+    font-weight:300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+   
+}
+.column1-content{
+    margin-left:20px;
+}
+
+.column-1-headline{
+    font-weight:100;
+    margin-right:20px;
+}  
+
+.column1-links{
+    list-style:none;
+    padding:0;
+}
+
+.column1-studentname{
+    margin-top:300px;
+    letter-spacing: 2px;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.container-column2 {
+  background:#c00;
+  width: 70%;
+  height:auto;
+  float:left;
+  color:black;
+  background-color:white;
+}
+
+
+.column2-content{
+    margin-top:0;
+    margin-left:40px;
+}
+
+.column2-header{
+    font-weight:300;
+    font-size:25px;
+    border-top:1px solid black;
+    text-transform: uppercase;
+    margin-top:30px;
+    letter-spacing: 1px;
+}
+
+.column2-text{
+    font-weight:300;
+    font-size:30px;
+}
