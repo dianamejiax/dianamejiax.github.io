@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>CSS Still Life</title>
+	<meta charset="utf-8">
+	<style>
+
+		body {
+			background: black;
+		}
+
+		.canvas {
+			width: 900px;
+			height: 556px;
+			margin: 100px auto;
+			position: relative;
+			background: #F6D44E;
+			z-index: -7;
+		}
+
+		.apple{
+			background-color:#FF5733;
+			width:80px;
+			height:80px;
+			border-radius:50%;
+			position:absolute;
+			right:100px;
+			bottom:100px;
+
+		}
+
+		.waterglass{
+			position:absolute;
+			bottom:100px;
+			right:300px;
+
+		}
+
+		.vase{
+			position: absolute;
+			bottom:100px;
+			left:100px;
+			height:200px;
+
+		}
+
+		.vase .top{
+			border-bottom: 100px solid #fff;
+			border-left: 50px solid transparent;
+			border-right: 50px solid transparent;
+			height:0;
+			width: 100px;
+
+		}
+
+
+		.vase .bottom{
+			border-bottom: 100px solid #fff;
+			border-left: 50px solid transparent;
+			border-right: 50px solid transparent;
+			height:0;
+			width: 100px;
+			transform:rotate(180deg);
+		}
+
+		.vase .middle{
+			width:200px;
+			height:20px;
+			background: #fff;
+
+		}
+
+		.flower-container{
+			position:absolute;
+			left: 100px;
+			bottom: 317px;
+		}
+
+		.flower-container .leaf-one{
+			background: forestgreen;
+			width:100px;
+			height:50px;
+			position:absolute;
+			top:60px;
+			border-radius: 50%;
+			-ms-transform: rotate(7deg); /* IE 9 */
+	 		-webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+	 		transform: rotate(7deg);
+		}
+
+		.flower-container .leaf-two{
+			background: forestgreen;
+			width:100px;
+			height:50px;
+			position:absolute;
+			top:100px;
+			border-radius: 50%;
+			-ms-transform: rotate(47deg); /* IE 9 */
+	 		-webkit-transform: rotate(47deg); /* Chrome, Safari, Opera */
+	 		transform: rotate(47deg);
+		}
+
+		.flower-container .bud{
+			color:red;
+			border-radius: 50%;
+			height:50px;
+			width:50px;
+			position: absolute;
+			top:60px;
+		}
+
+		.flower-container-two{
+			position:absolute;
+			left: 80px;
+			bottom: 317px;
+		}
+
+		.flower-container-two .leaf-one{
+			background: forestgreen;
+			width:100px;
+			height:50px;
+			position:absolute;
+			top:50px;
+			left:-50px;
+			border-radius: 50%;
+			-ms-transform: rotate(-133deg); /* IE 9 */
+	 		-webkit-transform: rotate(-133deg); /* Chrome, Safari, Opera */
+	 		transform: rotate(-133deg);
+		}
+
+		.flower-container-two .leaf-two{
+			background: forestgreen;
+			width:100px;
+			height:40px;
+			position:absolute;
+			top:1px;
+			left:10px;
+			border-radius: 50%;
+			-ms-transform: rotate(-47deg); /* IE 9 */
+	 		-webkit-transform: rotate(-47deg); /* Chrome, Safari, Opera */
+	 		transform: rotate(-47deg);
+		}
+		/* Step 2. Style your objects here */
+
+	</style>
+</head>
+
+<body>
+    <div class="canvas">
+
+			<div class="apple"></div>
+
+			<div class="water-glass">
+				<div class="water-top"></div>
+				<div class="water-bottom"></div>
+			</div>
+
+			<div class="vase">
+				<div class="top"></div>
+				<div class="middle"></div>
+				<div class="bottom"></div>
+			<div>
+
+				<div class="flower-container">
+					<div class="leaf-one"></div>
+					<div class="leaf-two"></div>
+					<div class="bud"></div>
+				</div>
+
+			<div class="flower-container-two">
+				<div class="leaf-one"></div>
+				<div class="leaf-two"></div>
+				<div class="bud"></div>
+			</div>
+
+    </div>
+</body>
+
+</html>
