@@ -2,9 +2,16 @@ body{
     font-family: 'Inconsolata', monospace;;
 }
 
+a{
+    color:white;
+    text-decoration: none;
+}
+
 .bold{
     font-size:50px;
 }
+
+
 
 .container-column1 {
   width: 30%;
