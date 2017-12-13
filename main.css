@@ -1,86 +1,77 @@
-body{
-    font-family: 'Inconsolata', monospace;;
+html,body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inconsolata', monospace;;
+
 }
 
-a{
-    color:white;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-.bold{
-    font-size:50px;
-}
-
-
-
-.container-column1 {
-  width: 30%;
-  height: 850px;
-  float: left;
-  color:white;
-  background-color:#E23D1C;
-}  
-
-.column-1-headline{
+.headline{
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size:30px;
+    font-weight: 300;
+  
 }
 
-.column-1-subheadline{
-    font-weight:300;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-   
-}
-.column1-content{
-    margin-left:20px;
+.container {
+  display: flex;
+  flex-direction: column;
 }
 
-.column-1-headline{
-    font-weight:100;
-    margin-right:20px;
-}  
+.sidebar {
+  padding: 20px;
+  position: fixed;
+  height: 100%;
+  width:250px;
+  background-color:#E23D1C;
+  color:white;
+} 
 
-.column1-links{
-   margin-left: 20px;
-    padding:0;
-    font-size:px;
+
+.body {
+  background: #fff;
+  height: 100%;
+  padding: 10px;
+  position: relative;
+  margin-left: 350px;
+  margin-right:300px;
 }
 
-.year{
-    margin-top:400px;
-    letter-spacing: 2px;
-    font-size: 20px;
-    text-transform: uppercase;
+.divider{
+  width:100%; 
+  margin-top:-10px;
+  border-bottom: 1px dotted #fff;
 }
 
-.container-column2 {
-  background:#c00;
-  width: 70%;
-  float:left;
-  color:black;
-  background-color:white;
-  height: 800px;
+h1,h2 {
+  margin-top: 20px;
 }
 
+ul{
+  margin-top:0px;
+   padding: 0;
 
-.column2-content{
-    margin-top:0;
-    margin-left:40px;
+  
 }
 
-.column2-header{
-    font-weight:300;
-    font-size:50px;
-
-    margin-top:30px;
-    letter-spacing:3px;
+.link-title{
+  font-size:20px;
+  margin-top: 50px;
 }
 
-.column2-text{
-    font-weight:300;
-    font-size:70px;
-    text-transform: uppercase;
+li{
+  list-style: none;
+  margin-top:10px;
+  font-size:18px;
+ 
+}
+
+a{
+  text-decoration: none;
+  color:#fff;
+}
+
+a:hover{
+  border-bottom: 3px dashed #fff;
+
 }
