@@ -20,20 +20,19 @@ body{
 a{
     text-decoration: none;
     font-size: 50px;
+    text-align: center;
     -webkit-text-fill-color: #000;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #fff;
-    text-align: center;
 }
 
 
-.home{
+.index{
     margin:20px;
 }
 
 
 .messagelabel{
-   
     text-transform:uppercase;
     overflow: hidden;
     border-right: .05em solid #fff;
@@ -48,8 +47,7 @@ a{
 }
 
 .japanesetext{
-    font-size:100px;
-    
+    font-size:100px;   
 }
 
 
@@ -91,3 +89,21 @@ a{
 }
 
 
+.options-container{
+    font-size: 50px;
+    text-align: center;
+    font-weight:300;
+    color:#fff;
+}
+
+
+.yes:hover{
+    padding: 1px;
+    border: 1px solid #fff;
+
+}
+
+.no:hover{
+    padding: 1px;
+    border: 1px solid #fff;
+}
