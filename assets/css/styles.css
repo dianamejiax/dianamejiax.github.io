@@ -4,7 +4,7 @@ body{
     font-family: 'Roboto Mono', monospace;
     background: #000;
     color:#fff;
-    font-size: 45px;
+    font-size: 40px;
   }
 
   .title{
@@ -22,7 +22,7 @@ a{
     color: #fff;
     text-transform: uppercase;
     font-weight: lighter;
-    font-size: 45px;
+    font-size: 40px;
 }
 
 a:hover{
@@ -38,4 +38,9 @@ a:hover{
     transform: translate(-50%,-50%);
     border:  solid #fff;
     padding-right: 30px;
+    margin-top:50px;
+  }
+
+  .links{
+    width:100%;
   }
