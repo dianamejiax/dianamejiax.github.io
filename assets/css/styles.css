@@ -4,6 +4,12 @@ body{
     font-family: 'Roboto Mono', monospace;
     background: #000;
     color:#fff;
+    font-size: 45px;
+  }
+
+  .title{
+    color: #ff0;
+    text-align:center;
   }
 
 ul{
@@ -16,7 +22,7 @@ a{
     color: #fff;
     text-transform: uppercase;
     font-weight: lighter;
-    font-size: 35px;
+    font-size: 45px;
 }
 
 a:hover{
@@ -24,10 +30,12 @@ a:hover{
   color: #000;
 }
   
-/*.wrapper{
+.wrapper{
   
     position:absolute;
     top: 50%;
     left:50%;
     transform: translate(-50%,-50%);
-  }*/
+    border:  solid #fff;
+    padding-right: 30px;
+  }
