@@ -1,0 +1,83 @@
+body {
+  background: linear-gradient(-90deg,#FF8888, #ffcccc);
+  color: #fff;
+  font-family: 'Roboto Mono', monospace;
+
+}
+
+.wrapper{
+  position:absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  margin: 0;
+  text-align:center;
+}
+
+.index{
+  margin:20px;
+}
+
+.x{
+  text-decoration: none;
+  font-size: 60px;
+  text-align: center;
+  -webkit-text-fill-color: #ffcccc;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+}
+
+
+.languages{
+  font-size:40px;
+  color: #fff;
+  font-weight:700px;
+  
+}
+
+
+.welcome {
+  max-width: 900px;
+  overflow: hidden;
+  position: relative;
+  min-height: 3em;
+}
+
+.left {
+  white-space: nowrap;
+  position: absolute;
+  text-transform: uppercase;
+}
+
+.left {
+  -webkit-animation: mymove 4s linear infinite; 
+  white-space: nowrap;
+  animation: mymove 4s linear infinite alternate;
+}
+
+@-webkit-keyframes mymove {
+  from {
+    left: 0;
+  }
+  to {
+    left: -140px;
+  }
+}
+
+@keyframes mymove {
+  from {
+    left: 0;
+  }
+  to {
+    left: -140px;
+  }
+}
+
+span:hover{
+ color:#ff0;
+}
+
+.blue:hover{
+  color:#f0f;
+}
+
