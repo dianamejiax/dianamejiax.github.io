@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(-90deg,#FF8888, #ffcccc);
+  background:#000;
   color: #fff;
   font-family: 'Roboto Mono', monospace;
 
@@ -22,7 +22,7 @@ body {
   text-decoration: none;
   font-size: 60px;
   text-align: center;
-  -webkit-text-fill-color: #ffcccc;
+  -webkit-text-fill-color: #000;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #fff;
 }
@@ -45,10 +45,10 @@ body {
 }
 
 .blink_me {
-
+  animation: blinker 0.2s linear infinite;
   text-transform:uppercase;
   font-size:150px;
-  -webkit-text-fill-color:none;
+  -webkit-text-fill-color: #000;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #fff;
   margin:0;
@@ -62,9 +62,9 @@ body {
   white-space: nowrap;
   position: absolute;
   text-transform: uppercase;
-}
-
-.left {
+  -webkit-text-fill-color: #000;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
   -webkit-animation: mymove 3s linear infinite; 
   white-space: nowrap;
   animation: mymove 3s linear infinite alternate;
