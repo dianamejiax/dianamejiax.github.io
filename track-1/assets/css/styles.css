@@ -8,6 +8,10 @@ body{
     font-family: 'Roboto Mono', monospace;
 }
 
+body, a:hover {
+    cursor: url(http://ani.cursors-4u.net/smiley/smi-3/smi356.cur), progress !important;
+} 
+
 
  .content{
     position:absolute;

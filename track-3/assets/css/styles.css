@@ -5,6 +5,9 @@ body {
 
 }
 
+body, a:hover {
+  cursor: url(http://ani.cursors-4u.net/smiley/smi-3/smi350.cur), progress !important;
+} 
 .wrapper{
   position:absolute;
   top: 50%;
@@ -44,15 +47,24 @@ body {
   min-height: 2.5em;
 }
 
+.blink_me{
+  font-size:150px;
+  margin:0;
+  -webkit-text-fill-color: #000;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+  text-shadow: 2px 2px #FF0000;
+}
+
+/*
 .blink_me {
   animation: blinker 0.2s linear infinite;
   text-transform:uppercase;
-  font-size:150px;
   -webkit-text-fill-color: #000;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #fff;
   margin:0;
-}
+}*/
 
 @keyframes blinker {  
   50% { opacity: 0; }
@@ -89,10 +101,14 @@ body {
 }
 
 span:hover{
- color:#ff0;
+ -webkit-text-fill-color: #000;
+ -webkit-text-stroke-width: 1px;
+ -webkit-text-stroke-color: #ff0;
 }
 
-.blue:hover{
-  color:#f0f;
+.red:hover{
+  -webkit-text-fill-color: #000;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #FF0000;
 }
 
