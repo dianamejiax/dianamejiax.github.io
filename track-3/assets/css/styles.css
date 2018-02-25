@@ -36,11 +36,26 @@ body {
 }
 
 
+
 .welcome {
-  max-width: 900px;
+  max-width: 1000px;
   overflow: hidden;
   position: relative;
-  min-height: 3em;
+  min-height: 2.5em;
+}
+
+.blink_me {
+
+  text-transform:uppercase;
+  font-size:150px;
+  -webkit-text-fill-color:none;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+  margin:0;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0; }
 }
 
 .left {
@@ -50,9 +65,9 @@ body {
 }
 
 .left {
-  -webkit-animation: mymove 4s linear infinite; 
+  -webkit-animation: mymove 3s linear infinite; 
   white-space: nowrap;
-  animation: mymove 4s linear infinite alternate;
+  animation: mymove 3s linear infinite alternate;
 }
 
 @-webkit-keyframes mymove {
