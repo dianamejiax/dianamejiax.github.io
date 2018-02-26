@@ -48,23 +48,19 @@ body, a:hover {
 }
 
 .blink_me{
-  font-size:150px;
+  font-size:140px;
   margin:0;
-  -webkit-text-fill-color: #000;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #fff;
-  text-shadow: 2px 2px #FF0000;
-}
-
-/*
-.blink_me {
-  animation: blinker 0.2s linear infinite;
   text-transform:uppercase;
   -webkit-text-fill-color: #000;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #fff;
-  margin:0;
-}*/
+  text-shadow: 6px 6px #FF0000;
+}
+
+
+.blink_me:hover {
+  animation: blinker 0.8s linear infinite;
+}
 
 @keyframes blinker {  
   50% { opacity: 0; }
@@ -77,9 +73,9 @@ body, a:hover {
   -webkit-text-fill-color: #000;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #fff;
-  -webkit-animation: mymove 3s linear infinite; 
+  -webkit-animation: mymove 4s linear infinite; 
   white-space: nowrap;
-  animation: mymove 3s linear infinite alternate;
+  animation: mymove 4s linear infinite alternate;
 }
 
 @-webkit-keyframes mymove {
