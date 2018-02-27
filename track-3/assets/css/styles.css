@@ -59,7 +59,7 @@ body, a:hover {
 }
 
 .blink_me:hover {
-  animation: blinker 0.8s linear infinite;
+  animation: blinker 0.4s linear infinite;
 }
 
 @keyframes blinker {  
@@ -73,9 +73,9 @@ body, a:hover {
   -webkit-text-fill-color: #000;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #fff;
-  -webkit-animation: mymove 4s linear infinite; 
+  -webkit-animation: mymove 1.6s linear infinite; 
   white-space: nowrap;
-  animation: mymove 4s linear infinite alternate;
+  animation: mymove 1.6s linear infinite alternate;
 }
 
 @-webkit-keyframes mymove {
