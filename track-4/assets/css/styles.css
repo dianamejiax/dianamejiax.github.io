@@ -4,6 +4,10 @@ body {
   font-family: 'Roboto Mono', monospace;
 }
 
+body, a:hover {cursor: url(http://cur.cursors-4u.net/anime/ani-3/ani379.cur), progress !important;
+}
+
+
 .wrapper{
   position:absolute;
   top: 50%;
@@ -21,14 +25,16 @@ body {
   text-decoration: none;
   font-size: 60px;
   text-align: center;
-  color:#fff;
+  -webkit-text-fill-color: #FF0000;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
 }
 
 
 .element {
   font-size:100px;
   animation-name: stretch;
-  animation-duration: 0.8s; 
+  animation-duration: 0.9s; 
   animation-timing-function: ease-out; 
   animation-delay: 0;
   animation-direction: alternate;
@@ -36,23 +42,35 @@ body {
   animation-play-state: running;
 }
 
+.watashi{
+  text-decoration: none;
+  color:#fff;
+  text-shadow: 3px 3px #000;
+
+}
+
 @keyframes stretch {
   0% {
     transform: scale(.3);
     color:#fff;
+    font-weight: 900;
 
   }
   50% {
     color:#fff;
+    font-weight: 900;
 
   }
 
   100% {
-    transform: scale(1.5);
+    transform: scale(3.5);
     color:#fff;
+    font-weight: 900;
 
   }
 }
+
+
 
 .me:hover img{
   visibility: visible;

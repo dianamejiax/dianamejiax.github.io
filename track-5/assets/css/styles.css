@@ -1,0 +1,75 @@
+body {
+  background: #FED147;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.wrapper{
+  position:absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  margin: 0;
+  text-align:center;
+}
+
+.index{
+  margin:20px;
+}
+
+.x{
+  text-decoration: none;
+  font-size: 60px;
+  text-align: center;
+  -webkit-text-fill-color: #FED147;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+}
+
+.spiral{
+  display: inline-block;
+}
+
+.spiral-list{
+  text-decoration: none;
+  list-style:none;
+  font-size:70px;
+  -webkit-text-fill-color: #FED147;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #fff;
+  transform: rotate(0deg);
+}
+
+.spiral {
+  animation-name: spin, depth;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 1.5s;
+  text-align: center;
+}
+@keyframes spin {
+  from { 
+    transform: rotateY(0deg);
+   }
+  to {
+     transform: rotateY(-360deg); 
+    }
+}
+@keyframes depth {
+  0 { 
+    text-shadow: 0 0 black; 
+  }
+  25% { 
+    text-shadow: 10px 0 black, 2px 0 black, 3px 0 black, 4px 0 black, 5px 0 black; 
+  }
+  50% { 
+   text-shadow: 0 0 black; 
+  }
+  75% { 
+   text-shadow: -10px 0 black, -2px 0 black, -3px 0 black, -4px 0 black, -5px 0 black; 
+  }
+  100% { 
+    text-shadow: 0 0 black; 
+  }
+}
