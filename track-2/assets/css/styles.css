@@ -51,7 +51,7 @@ body {
 }
 .glitch:before, .glitch:after {
   display: block;
-  content: '404 오류';
+  content: '404 エラー';
   position: absolute;
   top: 0;
   left: 5;

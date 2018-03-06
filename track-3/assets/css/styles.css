@@ -2,9 +2,7 @@ body {
   background:#000;
   color: #fff;
   font-family: 'Roboto Mono', monospace;
-
 }
-
 
 .wrapper{
   position:absolute;
@@ -31,13 +29,11 @@ body {
 .languages{
   font-size:40px;
   color: #fff;
-  font-weight:700px;
-  
+  font-weight:700px; 
 }
 
 .welcome {
-  max-width: 1000px;
-  overflow: hidden;
+
   position: relative;
   min-height: 2.5em;
 }
@@ -56,8 +52,8 @@ body {
   text-shadow: 6px 6px #FF0000;
 }
 
-.blink_me:hover {
-  animation: blinker 0.4s linear infinite;
+.blink_me{
+  animation: blinker 0.5s linear infinite;
 }
 
 @keyframes blinker {  
@@ -71,26 +67,26 @@ body {
   -webkit-text-fill-color: #000;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #fff;
-  -webkit-animation: mymove 1.6s linear infinite; 
+  -webkit-animation: mymove 3s linear infinite; 
   white-space: nowrap;
-  animation: mymove 1.6s linear infinite alternate;
+  animation: mymove 3s linear infinite alternate;
 }
 
 @-webkit-keyframes mymove {
   from {
-    left: 0;
+    left: -200px;
   }
   to {
-    left: -140px;
+    left: -500px;
   }
 }
 
 @keyframes mymove {
   from {
-    left: 0;
+    left: -200px;
   }
   to {
-    left: -140px;
+    left: -500px;
   }
 }
 
